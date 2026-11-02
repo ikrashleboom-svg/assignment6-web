@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="block" id="top">
+    <h1 id="myName">Azimbek Amandykov</h1>
+    <h3 id="myHeadline">Student of Astana IT University</h3>
+    <p class="text">I study Software Engineering, group SE-2539.</p>
+    <p class="welcome">Welcome to My Portfolio</p>
+    <button id="btnHeadline">Change headline</button>
+    <button id="btnLight">Light</button>
+    <button id="btnDark">Dark</button>
+  </div>
+
+  <div class="block">
+    <h2>About Me</h2>
+    <p>My name is Azimbek, I live in Astana. I am a student of Astana IT University, my educational program is SE (Software Engineering).</p>
+    <p id="myStatus">Currently learning jQuery!</p>
+    <div id="facts">
+      <p>- I like watching movies</p>
+      <p>- I play table tennis and I am interested in football</p>
+      <p>- I like playing different games</p>
+    </div>
+    <button id="btnHide">Hide</button>
+    <button id="btnShow">Show</button>
+    <button id="btnToggle">Toggle</button>
+  </div>
+
+  <div class="block">
+    <h2>Photos</h2>
+    <img class="photo" src="photo1.jpg" alt="photo 1">
+    <img class="photo" src="photo2.jpg" alt="photo 2">
+    <br>
+    <button id="btnFadeIn">Fade In</button>
+    <button id="btnFadeOut">Fade Out</button>
+    <button id="btnFadeToggle">Fade Toggle</button>
+  </div>
+
+  <div class="block">
+    <h2>Favorites</h2>
+    <h4 class="title">My Favorite Music</h4>
+    <div class="info">I listen to different music, but my favorite song is "Tvoi shagi".</div>
+
+    <h4 class="title">My Favorite Movies</h4>
+    <div class="info">I like Marvel movies, I watched almost all of them.</div>
+
+    <h4 class="title">My Favorite Sport</h4>
+    <div class="info">I play table tennis with my friends. I also like watching football.</div>
+
+    <button id="btnOpen">Slide Down</button>
+    <button id="btnClose">Slide Up</button>
+  </div>
+
+  <div class="block">
+    <h2>Skills</h2>
+    <ol id="skillList">
+      <li>Python</li>
+      <li>C++</li>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ol>
+    <input type="text" id="newSkill" placeholder="Write skill...">
+    <button id="btnAdd">Add Skill</button>
+    <button id="btnPrepend">Prepend Skill</button>
+    <button id="btnRemove">Remove Skill</button>
+    <p id="warning"></p>
+  </div>
+
+  <div class="block">
+    <h2>Links</h2>
+    <a id="myLink" href="https://github.com/ikrashleboom-svg" target="_blank">My GitHub</a>
+    <br>
+    <button id="btnLink">Change Link</button>
+  </div>
+
+  <div class="block">
+    <h2>Form</h2>
+    Name: <input type="text" id="userName"><br>
+    Email: <input type="text" id="userEmail">
+    <p>Your name: <span id="showName"></span></p>
+    <p>Your email: <span id="showEmail"></span></p>
+  </div>
+
+  <div class="block">
+    <h2>Skill Bars</h2>
+    <p>HTML</p>
+    <div class="line"><div class="fill" id="bar1"></div></div>
+    <p>CSS</p>
+    <div class="line"><div class="fill" id="bar2"></div></div>
+    <p>Python</p>
+    <div class="line"><div class="fill" id="bar3"></div></div>
+    <br>
+    <button id="btnAnimate">Animate My Skills</button>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
