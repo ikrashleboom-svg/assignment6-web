@@ -3,7 +3,7 @@
 **Name:** Amandykov Azimbek
 **Group:** SE-2539
 
-**GitHub Pages:** https://USERNAME.github.io/REPOSITORY/
+**GitHub Pages:** https://ikrashleboom-svg.github.io/assignment6-web/
 
 ---
 
